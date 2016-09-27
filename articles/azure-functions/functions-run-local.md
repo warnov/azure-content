@@ -144,22 +144,6 @@ If your purpose is to contribute to the WebJobs.SDK project, you need all of the
 
 	If you're starting the WebHost project, you get a blank browser page because there is no content to serve at the base URL of the project. See the [API keys](#apikeys) section for information about URLs to use for HTTP trigger functions.
 
-## Viewing function output
-
-Go to the dashboard for your function app to see function invocations and log output for them.
-
-The dashboard is at the following URL:
-
-	https://{function app name}.scm.azurewebsites.net/azurejobs/#/functions
-
-The **Functions** page displays a list of functions that have been executed, and a list of function invocations.
-
-![Invocation Detail](./media/functions-run-local/invocationdetail.png)
-
-Click an invocation to see the **Invocation Details** page, which indicates when the function was triggered, the approximate run time, and successful completion. Click the **Toggle Output** button to see logs written by the function code.
-
-![Invocation Detail](./media/functions-run-local/invocationdetail.png)
-
 ## <a id="apikeys"></a> API Keys for HTTP triggers
 
 To run an HTTP or WebHook function, you'll need an API key unless you include `"authLevel": "anonymous"` in the *function.json* file.
